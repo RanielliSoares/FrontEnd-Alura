@@ -101,3 +101,9 @@ body{
     font-size: 24px;
     font-weight: 400;
 }
+
+@media (max-width: 1250px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+}
